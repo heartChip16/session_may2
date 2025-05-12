@@ -1,0 +1,16 @@
+[package]
+name = "resource_creator"
+version = "1.0.0"
+authors = []
+
+[addresses]
+resource_creator_addr = "2d2421fe7127684fd3a0aa544eefbd7f40eb8ed2b84aa3c9da817249f357e645"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "testnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
